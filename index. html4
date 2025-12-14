@@ -1,0 +1,27 @@
+<!em>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+    </head>
+    <body>
+        <!--Heading and paragraph tags-->
+        <h1>hello world</h1>
+        <h2>hello world</h2>
+        <h3>hello world</h3>
+        <h4>hello world</h4>
+        <h5>hello world</h5>
+        <h6>hello world</h6>
+
+        <!--Paragraph-->
+        <p>Lorem, <strong>ipsum dolor sit amet, consectetur adipiscing elit,></strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut<em>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</em> dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+</p>
+    </body>
+</html>
