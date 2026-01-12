@@ -1,0 +1,30 @@
+<html>
+<body>
+
+a<sup>2</sup> + b<sup>2</sup> <br>
+H<sub>2</sub>O <br>
+
+special character symbols <br>
+
+&copy; copyrights all reserved <br>
+
+Hello &nbsp;&nbsp;&nbsp; World <br>
+
+Username:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br>
+
+a &lt; b <br>
+b &gt; c <br>
+
+&quot; Hello &quot; <br>
+&apos; Hello &apos; <br>
+
+&reg; to this company &larr; &rarr; &uarr; &darr; <br>
+
+&Delta;a + &Delta;b = &Delta;c <br>
+
+&Gamma; <br>
+
+&#160;
+
+</body>
+</html>
