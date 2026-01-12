@@ -1,0 +1,13 @@
+<html>
+    <body>
+        Username:<input type="text"> <br>
+        Passward:<input type="passward"> <br>
+        Gender:<input type="radio" name="r1">Male
+               <input type="radio" name="r1">Female <br>
+        Language:<input type="checkbox"> kannada
+                 <input type="checkbox"> English <br>
+        Address:<textarea></textarea> <br>
+        <input type="submit" value="Register">
+        <input type="Reset"
+    </body>
+</htnl>
