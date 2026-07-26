@@ -1,0 +1,310 @@
+/* =========================================
+   PREMIUM SCROLL REVEAL ANIMATION
+   MIA ORANGE & BROWN THEME
+========================================= */
+
+.reveal{
+
+    opacity:0;
+    transform:translateY(45px);
+
+    transition:
+        opacity .8s cubic-bezier(.22,.9,.32,1),
+        transform .8s cubic-bezier(.22,.9,.32,1);
+
+    will-change:opacity,transform;
+
+}
+
+.reveal.reveal-active{
+
+    opacity:1;
+    transform:translateY(0);
+
+}
+
+/* No-JS fallback */
+
+.no-js .reveal{
+
+    opacity:1;
+    transform:none;
+
+}
+
+/* =========================================
+STAGGER EFFECTS
+========================================= */
+
+.objective-container .reveal:nth-child(1){transition-delay:.05s;}
+.objective-container .reveal:nth-child(2){transition-delay:.15s;}
+.objective-container .reveal:nth-child(3){transition-delay:.25s;}
+.objective-container .reveal:nth-child(4){transition-delay:.35s;}
+.objective-container .reveal:nth-child(5){transition-delay:.45s;}
+.objective-container .reveal:nth-child(6){transition-delay:.55s;}
+
+.office-container .reveal:nth-child(1){transition-delay:.05s;}
+.office-container .reveal:nth-child(2){transition-delay:.15s;}
+.office-container .reveal:nth-child(3){transition-delay:.25s;}
+.office-container .reveal:nth-child(4){transition-delay:.35s;}
+.office-container .reveal:nth-child(5){transition-delay:.45s;}
+.office-container .reveal:nth-child(6){transition-delay:.55s;}
+.office-container .reveal:nth-child(7){transition-delay:.65s;}
+
+.vision-mission .reveal:nth-child(1){transition-delay:.05s;}
+.vision-mission .reveal:nth-child(2){transition-delay:.20s;}
+
+.footer-container .reveal:nth-child(1){transition-delay:.05s;}
+.footer-container .reveal:nth-child(2){transition-delay:.15s;}
+.footer-container .reveal:nth-child(3){transition-delay:.25s;}
+
+/* =========================================
+LEFT / RIGHT / ZOOM
+========================================= */
+
+.reveal-left{
+
+    opacity:0;
+    transform:translateX(-55px);
+
+    transition:
+        opacity .8s cubic-bezier(.22,.9,.32,1),
+        transform .8s cubic-bezier(.22,.9,.32,1);
+
+}
+
+.reveal-left.reveal-active{
+
+    opacity:1;
+    transform:translateX(0);
+
+}
+
+.reveal-right{
+
+    opacity:0;
+    transform:translateX(55px);
+
+    transition:
+        opacity .8s cubic-bezier(.22,.9,.32,1),
+        transform .8s cubic-bezier(.22,.9,.32,1);
+
+}
+
+.reveal-right.reveal-active{
+
+    opacity:1;
+    transform:translateX(0);
+
+}
+
+.reveal-zoom{
+
+    opacity:0;
+    transform:scale(.92);
+
+    transition:
+        opacity .7s ease,
+        transform .7s cubic-bezier(.22,.9,.32,1);
+
+}
+
+.reveal-zoom.reveal-active{
+
+    opacity:1;
+    transform:scale(1);
+
+}
+
+/* =========================================
+HEADER SCROLL EFFECT
+========================================= */
+
+.header.scrolled{
+
+    padding-top:12px;
+    padding-bottom:12px;
+
+    background:rgba(255,255,255,.98);
+
+    box-shadow:
+        0 10px 30px rgba(74,36,23,.15);
+
+    border-bottom:3px solid var(--primary);
+
+}
+
+/* =========================================
+BUTTON PREMIUM SHINE
+========================================= */
+
+.btn{
+
+    position:relative;
+    overflow:hidden;
+
+}
+
+.btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:-80%;
+
+    width:45%;
+    height:100%;
+
+    background:
+        linear-gradient(
+            120deg,
+            transparent 0%,
+            rgba(255,255,255,.45) 50%,
+            transparent 100%
+        );
+
+    transform:skewX(-20deg);
+
+    transition:left .7s ease;
+
+}
+
+.btn:hover::before{
+
+    left:140%;
+
+}
+
+.btn:hover{
+
+    box-shadow:
+        0 18px 35px rgba(246,139,31,.30);
+
+}
+
+/* =========================================
+CARD ANIMATIONS
+========================================= */
+
+.card,
+.objective-card,
+.office-card,
+.detail-card,
+.quality-card,
+.benefit-card{
+
+    transition:
+        transform .45s cubic-bezier(.22,.9,.32,1),
+        box-shadow .45s cubic-bezier(.22,.9,.32,1);
+
+}
+
+.card:hover,
+.objective-card:hover,
+.office-card:hover,
+.detail-card:hover,
+.quality-card:hover,
+.benefit-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+        0 20px 40px rgba(246,139,31,.22);
+
+}
+
+.office-card img,
+.gallery-container img{
+
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease;
+
+}
+
+.gallery-container img:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:
+        0 18px 35px rgba(246,139,31,.25);
+
+}
+
+/* =========================================
+ICON HOVER
+========================================= */
+
+.card i,
+.objective-card i,
+.detail-card i,
+.quality-card i,
+.benefit-card i{
+
+    transition:
+        transform .35s ease,
+        color .35s ease;
+
+}
+
+.card:hover i,
+.objective-card:hover i,
+.detail-card:hover i,
+.quality-card:hover i,
+.benefit-card:hover i{
+
+    transform:scale(1.15) rotate(-5deg);
+
+    color:var(--primary-dark);
+
+}
+
+/* =========================================
+SECTION TITLE ANIMATION
+========================================= */
+
+.section-title h2{
+
+    transition:.35s;
+
+}
+
+.section-title:hover h2{
+
+    letter-spacing:1px;
+
+}
+
+/* =========================================
+REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion:reduce){
+
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-zoom{
+
+    opacity:1 !important;
+    transform:none !important;
+    transition:none !important;
+
+}
+
+.hero-content,
+section{
+
+    animation:none !important;
+
+}
+
+.btn::before{
+
+    display:none;
+
+}
+
+}
