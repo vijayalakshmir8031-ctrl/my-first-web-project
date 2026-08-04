@@ -6,6 +6,10 @@
                 <td bgcolor="red">USN</td>
                 <td bgcolor="red">mark</td>
             </tr>
+            <tr>  <td colspan=2 bgcolor="red">NAME</td>
+                <td bgcolor="red">USN</td>
+                <td bgcolor="red">mark</td>
+            </tr>
             <tr>
                 <td rowspan=4>viju</td>
                 <td>01SU24AI117</td>
