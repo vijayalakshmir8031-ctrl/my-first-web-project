@@ -27,3 +27,13 @@ td colspan=2 bgcolor="red">NAME</td>
                 <td bgcolor="red">mark</td>
             </tr>
             <tr>
+ <td rowspan=4>viju</td>
+                <td>01SU24AI117</td>
+                <td>77</td>
+            </tr>
+            <td>trisha</td>
+            <td>01SU24AI117</td>
+            <td>88</td>
+        </table>
+    </body>
+</html>
